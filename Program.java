@@ -16,6 +16,7 @@ public class Program extends Applet
 
   public void start()
   {
+   this.inf = new InfoWindow("Info", "Informacje\nKalkulator operujacy\nna liczbach binarnych");
    wyswietl.setFont(new Font("Arial", Font.PLAIN, wyswietl.getWidth()/13));
    panel.dopasujrozmiar();
   }
@@ -242,7 +243,6 @@ public class Program extends Applet
      p.init();
      f.setVisible(true);
      p.start();
-     p.inf = new InfoWindow("Info", "Informacje\nKalkulator operujacy\nna liczbach binarnych");
     }
   }
 }
